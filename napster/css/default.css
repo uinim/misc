@@ -1,0 +1,69 @@
+/* charset */
+@charset 'UTF-8';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+body#SeachNapster h1 {
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 10px;
+	border-top: 2px solid #356B7A;
+	border-bottom: 2px solid #356B7A;
+	background: #007BBA;
+	margin: 0 0 10px 0;
+}
+
+body#SeachNapster div#contents {
+	padding: 0 10px 10px 10px;
+}
+
+body#SeachNapster div#contents h2 {
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+
+body#SeachNapster div#contents div#searchArea {
+}
+
+body#SeachNapster div#contents div#searchArea input.keyword {
+	width: 200px;
+	border: 1px solid #CCCCCC;
+	height: 18px;
+}
+
+body#SeachNapster div#contents div#searchArea input.submit {
+	border: 1px solid #CCCCCC;
+}
+
+body#SeachNapster div#contents hr {
+	border: 1px solid #CCCCCC;
+}
+
+body#SeachNapster div#contents div.pager {
+	border-top: 1px solid #CCCCCC;
+	margin: 10px 0;
+}
+body#SeachNapster div#contents div.toSearchTop {
+	border-top: 1px solid #CCCCCC;
+	margin: 10px 0;
+}
+
+body#SeachNapster div#footer .pageNavi {
+	border-top: 1px solid #CCCCCC;
+	margin: 10px 0;
+	padding: 5px 10px;
+}
+
+body#SeachNapster div#footer .toTop {
+	border-top: 1px solid #CCCCCC;
+	margin: 10px 0;
+	padding: 5px 10px;
+}
