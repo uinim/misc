@@ -6,10 +6,10 @@ require "mail-iso-2022-jp"
 # 送信設定をセット
 Mail.defaults do
  delivery_method :smtp, {
-     :address => "sample.com",
+     :address => "example.com",
      :port => 465,
-     :domain => "sample.com",
-     :user_name => "hoge@sample.com",
+     :domain => "example.com",
+     :user_name => "hoge@example.com",
      :password => "*******",
      :authentication => "login",
      :openssl_verify_mode => "none",
